@@ -1,0 +1,94 @@
+{
+  "schedule": [
+    {
+      "days": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F"
+      ],
+      "room": "A234",
+      "class": "AP Computer Science A",
+      "period": "1",
+      "teacher": "Mrs. Rehwinkel"
+    },
+    {
+      "days": [
+        "A",
+        "B",
+        "D",
+        "E",
+        "F"
+      ],
+      "room": "B111",
+      "class": "Honors NJIT IS219 Advanced Website Development WDP",
+      "period": "2",
+      "teacher": "Mr. Kilgore"
+    },
+    {
+      "days": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "G"
+      ],
+      "room": "A211",
+      "class": "AP Calculus BC",
+      "period": "3",
+      "teacher": "Mrs. Andrews"
+    },
+    {
+      "days": [
+        "B",
+        "C",
+        "D",
+        "F",
+        "G"
+      ],
+      "room": "D101",
+      "class": "Fine Art 1",
+      "period": "4",
+      "teacher": "Mrs. Fraser"
+    },
+    {
+      "days": [
+        "A",
+        "B",
+        "D",
+        "E",
+        "G"
+      ],
+      "room": "E219",
+      "class": "AP Chemistry",
+      "period": "5",
+      "teacher": "Mrs. Greenwood"
+    },
+    {
+      "days": [
+        "A",
+        "C",
+        "D",
+        "F",
+        "G"
+      ],
+      "room": "A123",
+      "class": "AP English Lit & Comp",
+      "period": "6",
+      "teacher": "Mrs. Fraser"
+    },
+    {
+      "days": [
+        "B",
+        "C",
+        "F",
+        "G"
+      ],
+      "room": "C101",
+      "class": "Study Hall",
+      "period": "7",
+      "teacher": "Mrs. White"
+    }
+  ]
+}
