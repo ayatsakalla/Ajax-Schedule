@@ -1,0 +1,50 @@
+body {
+    background-color: #fc8eac;
+}
+
+/* fonts */
+@font-face {
+    font-family: 'matcha';
+    src: url('Matcha-EaLge.ttf');
+}
+
+.matcha {
+    font-family: 'matcha';
+}
+
+@font-face {
+    font-family: 'alonzo';
+    src: url('CsAlonzoRegularDemo-BL70d.otf');
+}
+
+.alonzo {
+    font-family: 'alonzo';
+}
+
+.btn {
+    background-color: #ffddf4;
+    border-radius: 50%;
+}
+
+.btn:hover {
+    background-color: #ffedf9;
+}
+
+input {
+    background-color: #ffddf4;
+}
+
+.table {
+    background-color: #ffddf4;
+    --bs-table-bg: none; 
+        --bs-table-striped-bg: none;
+        --bs-border-color: #e350b4;
+}
+
+.font-size {
+    font-size: 1.2vw;
+}
+
+.fnt {
+    font-size: 1.3vw;
+}

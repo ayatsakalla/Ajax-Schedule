@@ -10,27 +10,33 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- personal css -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="container">
-        <h1 class="text-center">Where Should I Be Right Now?</h1>
+        <h1 class="text-center matcha display-3">Where Should I Be Right Now?</h1>
 
-        <div class="form-group">
-            <label for="dayInput">Select Day (A-G):</label>
-            <input type="text" id="dayInput" class="form-control" placeholder="Enter a day (A-G)">
-            <button id="submitDay" class="btn btn-primary mt-2">Show Schedule</button>
+        <div class="form-group d-flex flex-column justify-content-center align-items-center w-10">
+            <label for="dayInput" class="alonzo fnt">Select Day (A-G):</label>
+            <br>
+            <input type="text" id="dayInput" class="form-control alonzo" placeholder="Enter a day (A-G)">
+            <button id="submitDay" class="btn mt-4 alonzo font-size">Show
+                Schedule</button>
         </div>
+        <br>
         <div class="schedule">
-            <h3 class="text-center">Your Schedule for the Day</h3>
-            <table class="table table-bordered table-striped">
+            <h3 class="text-center matcha display-4">Your Schedule for the Day</h3>
+            <table class="table table-bordered table-striped alonzo font-size">
                 <thead>
                     <tr>
-                        <th>Period</th>
-                        <th>Class</th>
-                        <th>Teacher</th>
-                        <th>Room</th>
+                        <th class="alonzo fnt">Period</th>
+                        <th class="alonzo fnt">Class</th>
+                        <th class="alonzo fnt">Teacher</th>
+                        <th class="alonzo fnt">Room</th>
                     </tr>
                 </thead>
                 <tbody id="scheduleList"></tbody>

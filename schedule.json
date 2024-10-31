@@ -89,6 +89,15 @@
       "class": "Study Hall",
       "period": "7",
       "teacher": "Mrs. White"
+    },
+    {
+      "days": [
+        "E"
+      ],
+      "room": "E219",
+      "class": "AP Chemistry",
+      "period": "6",
+      "teacher": "Mrs. Greenwood"
     }
   ]
 }
